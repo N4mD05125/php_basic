@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <h1>Quan ly thong tin cua sinh vien:</h1>
+    <form action = "xem_thong_tin.php" method = "post">
+        Xem thong tin cua sinh vien theo id:
+        <input type = "number" name = "id" required>
+        <input type = "submit" value = "xem thong tin" required><br><br>
+    </form><br><br>
+    <form action = "xoa_thong_tin.php" method = "post">
+        Xoa thong tin cua sinh vien theo id:
+        <input type = "number" name = "id" required>
+        <input type = "submit" value = "xoa thong tin" required><br><br>
+    </form><br><br>
+    <form action = "them_thong_tin.php" method = "post">
+        Them thong tin cua sinh vien theo id<br>
+        Nhap ten:
+        <input type = "text" name = "name" required><br>
+        Nhap so dien thoai:
+        <input type = "text" name = "phone" required><br>
+        Nhap dia chi email:
+        <input type = "text" name = "email" required><br>
+        Nhap tuoi
+        <input type = "number" name = "age" required><br>
+        <input type = "submit" value = "them thong tin" required><br>
+    </form><br><br>
+    <form action = "sua_thong_tin.php" method = "post">
+        Sua thong tin cua sinh vien theo id<br>
+        Nhap ID:
+        <input type = "number" name = "id" required><br>
+        Nhap ten:
+        <input type = "text" name = "name" required><br>
+        Nhap so dien thoai:
+        <input type = "text" name = "phone" required><br>
+        Nhap dia chi email:
+        <input type = "text" name = "email" required><br>
+        Nhap tuoi
+        <input type = "number" name = "age" required><br>
+        <input type = "submit" value = "Sua thong tin" required><br>
+    </form>
+</html>
